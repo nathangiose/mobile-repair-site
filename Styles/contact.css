@@ -1,0 +1,16 @@
+#contact {
+  display: flex;
+  padding: 10px 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.contact-wrapper > div {
+  display: flex;
+  align-items: center;
+}
