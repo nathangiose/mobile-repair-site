@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobile Repair Store</title>
-    <link rel="stylesheet" href="./Styles/social.css" />
+    <link rel="stylesheet" href="/Styles/social.css" />
     <!-- External Scripts -->
     <script
       src="https://kit.fontawesome.com/07c41cdf40.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./Styles/contact.css" />
+    <link rel="stylesheet" href="/Styles/contact.css" />
+    <link rel="stylesheet" href="/Styles/navbar.css" />
   </head>
   <body>
     <!-- Social Bar -->
@@ -30,27 +31,42 @@
     <!-- Contact Bar -->
     <div id="contact">
       <img src="./Images/logo.png" alt="Mobile Repair Logo" />
-      <div class="contact-wrapper">
-        <div>
-          <i class="fas fa-phone-alt"></i>
-          <div>
-            <p>contact us</p>
-            <p>(123) 456 7890</p>
+      <div class="contact-details">
+        <div class="contact-information">
+          <i class="contact-icon fas fa-phone-alt"></i>
+          <div class="contact-heading">
+            <p class="contact-heading-top">Contact Us</p>
+            <p class="contact-heading-bottom">(123) 456 7890</p>
           </div>
         </div>
-        <div>
-          <i class="far fa-clock"></i>
-          <div>
-            <p>Working Time</p>
-            <p>Mon - Sat: 10:00 - 18:00</p>
+        <div class="contact-information">
+          <i class="contact-icon far fa-clock"></i>
+          <div class="contact-heading">
+            <p class="contact-heading-top">Working Time</p>
+            <p class="contact-heading-bottom">Mon - Sat: 10:00 - 18:00</p>
           </div>
         </div>
-        <a href="#">Get a free Quote</a>
+        <!-- Button -->
+        <a href="#" class="button">Get a free Quote</a>
       </div>
     </div>
 
     <!-- Navigation Bar -->
-    <nav>Navbar</nav>
+    <nav id="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-links"><a href="#">Home</a></li>
+        <li class="navbar-links"><a href="#">About Us</a></li>
+        <li class="navbar-links"><a href="#">Our Team</a></li>
+        <li class="navbar-links"><a href="#">Pages</a></li>
+        <li class="navbar-links"><a href="#">Our Services</a></li>
+        <li class="navbar-links"><a href="#">Blog</a></li>
+        <li class="navbar-links"><a href="#">Shop</a></li>
+        <li class="navbar-links"><a href="#">Contact Us</a></li>
+      </ul>
+      <button class="mobile-menu"><i class="fas fa-bars"></i></button>
+      <i class="fas fa-search"></i>
+    </nav>
+
     <!-- Landing Section -->
     <header>Landing Section</header>
     <!-- Why Section -->
